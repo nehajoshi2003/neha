@@ -1,0 +1,84 @@
+.container {
+    max-width: 300px;
+    margin: 5vh auto 0 auto;
+    background-color: rgb(198,198,190);
+padding: 10px;
+height: 550px;
+border: 2px solid rgb(81, 81, 81);
+ box-shadow: 0 0 10px 10px rgb(193, 188, 188);
+
+}
+h1{
+    text-align: center;
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+#display {
+    margin-top: 30px;
+    text-align: right;
+    height: 50px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    border: 3px solid gray; 
+    background: black;
+    color: rgb(231,160,61);
+    margin-left: 24px;
+  width: 234px;
+}
+
+.buttons {
+    display: flex;
+    margin-left: 24px;
+    display: grid;
+    grid-template-columns:0.19fr 0.19fr 0.19fr 0.19fr ;
+margin-top: 20px;
+
+
+
+}
+
+.text{
+    margin-left: 20px;
+    font-size: 20px;
+   }
+
+   .text2{
+color: gray;
+margin-left: 20px;
+font-size: 20px;
+   }
+.text1{
+    color: black;
+margin-left: 8px;
+font-size: 20px;
+}
+.button {
+  text-decoration:none;
+    color:#000;
+    margin-top:4px;
+    margin-right:4px;
+    border-radius: 10px;
+    width:50px;
+    display:inline-block;
+    line-height:40px;
+    font-size:12px;
+    font-weight:900;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    background-color: rgb(103,113,102);  
+     border:5px solid rgb(85,88,68);  
+     box-shadow:2px 2px 0, 2px 2px 0, 2px 2px 0, 2px 2px 0,2px 2px 0;
+    position: relative;
+}
+
+.line{
+    margin-left: 0px;
+    margin-top: 15px;
+height: 1px;
+width:300px;
+background-color:brown;
+}
